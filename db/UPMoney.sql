@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `upmoneydb`.`sys_user`(
   `userheadimg` VARCHAR(256) NOT NULL DEFAULT 'default.jpg' COMMENT '用户头像',
   PRIMARY KEY (`id`)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
-
+##添加数据
 INSERT INTO `upmoneydb`.`sys_user` (`accountId`,`password`,`username`,`userheadimg`) 
 VALUES('HanLei','123456','韩磊','hanlei.jpeg');
 
