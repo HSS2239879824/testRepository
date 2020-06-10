@@ -5,6 +5,8 @@ CREATE DATABASE IF NOT EXISTS UPMoneyDB;
 ##使用数据库UPMoneyDB
 USE UPMoneyDB;
 
+SET GLOBAL time_zone='+8:00';
+
 ##删除用户表sys_user
 DROP TABLE IF EXISTS `upmoneydb`.`sys_user`;
 ##创建用户表sys_user
